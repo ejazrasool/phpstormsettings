@@ -1,0 +1,44 @@
+<templateSet group="PHP">
+  <template name="dpr" value="echo '&lt;pre&gt;' . print_r($SELECTION$, 1) . '&lt;/pre&gt;';" description="print_r variables" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dpre" value="echo '&lt;pre&gt;' . print_r($SELECTION$, 1) . '&lt;/pre&gt;'; exit;" description="print_r varialbe and die" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="wpt" value="_e('$SELECTION$', 'ECA');" description="Surround text with wordpress string translation function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $SELECTION$ ?&gt;" description="Insert &lt;?php ?&gt; tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="drplt" value="&lt;?php print t('$SELECTION$') ?&gt;" description="Drupal's multilingual output function t('')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="erall" value="error_reporting(E_ALL);&#10;ini_set('display_errors', 1);&#10;" description="Error reporting and display" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="surr_pre" value="echo &quot;&lt;pre&gt;{$SELECTION$}&lt;/pre&gt;&quot;;&#10;" description="Surrount selection with echo echo &lt;pre&gt;&lt;/pre&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

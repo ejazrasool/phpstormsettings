@@ -1,0 +1,19 @@
+<templateSet group="html/xml">
+  <template name="IF" value="{if $SELECTION$}{/if}" description="smarty if statement" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ano" value="function(){&#10;   &#10;}" description="anonymous function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="FE" value="{foreach from=$SELECTION$ item='' key=''}&#10;   &#10;{/foreach}" description="Surround selection with smarty foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2bd8f69-8e4d-4573-9a5a-ecbe0e9de108" name="Spergel_Online" url="http://hitech-scripts.com/">
+        <fileTransfer mountedRoot="d:\work\Ray - Spergel\online_files" accessType="MOUNT" />
+      </webServer>
+      <webServer id="5e65b84b-3de0-4472-a5cc-32e69f1e64f3" name="demo" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
