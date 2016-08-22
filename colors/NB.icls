@@ -28,12 +28,16 @@
     <option name="CSS.IDENT">
       <value>
         <option name="FOREGROUND" value="2a890c" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.IMPORTANT">
       <value>
         <option name="FOREGROUND" value="e3310c" />
+      </value>
+    </option>
+    <option name="CSS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="80" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -45,22 +49,29 @@
     <option name="CSS.PROPERTY_VALUE">
       <value />
     </option>
+    <option name="CSS.PSEUDO">
+      <value>
+        <option name="FOREGROUND" value="a9520f" />
+      </value>
+    </option>
     <option name="CSS.STRING">
       <value>
         <option name="FOREGROUND" value="d87511" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.TAG_NAME">
       <value>
         <option name="FOREGROUND" value="a9520f" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.URL">
       <value>
         <option name="FOREGROUND" value="d1810a" />
-        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="80" />
       </value>
     </option>
     <option name="DIFF_DELETED">
